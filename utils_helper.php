@@ -7,10 +7,7 @@ function format_date_indo($date)
 
     // Days and months in Indonesian
     $days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    $months = [
-        "Januari", "Februari", "Maret", "April", "Mei", "Juni",
-        "Juli", "Agustus", "September", "Oktober", "November", "Desember"
-    ];
+    $months = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
 
     // Extract components from the datetime string
     $year = substr($date, 0, 4);
