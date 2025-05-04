@@ -16,16 +16,19 @@
 
 ## Installation
 
-1. **Add the Function File**  
+1. **Add the Function File**
+
    Create a helper file in your CodeIgniter project (e.g., `application/helpers/utils_helper.php`) and insert the function.
 
-2. **Load the Helper**  
+3. **Load the Helper**
+
    Load the helper in your controller or autoload it:
    ```php
    $autoload['helper'] = array('utils');
    ```
 
-3. **Use the Function**  
+5. **Use the Function**
+
    Call `format_date_indo('2024-01-01 08:30:00')` in your views or controllers.
 
 ## Customization
